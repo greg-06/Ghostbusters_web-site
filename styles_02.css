@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+html {
+    background: url("artwork_data/wall_web_site_GBFR.png") fixed;
+    scroll-behavior: smooth;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+body {
+    margin: 6.2%;
+    text-align: justify;
+    font-family: Georgia, 'sans-forgetica', Times, serif;
+    font-size: 14px;
+    background-color: rgb(161, 181, 207);
+    opacity: 0.86;
+    border: 3px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    box-shadow: 5px 5px 6px black;
+}
+
+ol {
+    line-height: 0.2;
+}
+
+ul {
+    line-height: 0.2;
+}
+
+.sommaire-1 ol{
+    line-height: 8px;
+    font-variant-caps:all-small-caps
+}
+
+.sommaire-1 a {
+    text-decoration: none;
+    color: #18253d;
+    transition: ease-in-out 0.1s;
+    font-weight: 600;
+}
+
+#top_page {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(74, 131, 206);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sommaire-1 a:hover {
+    color: #18253d81;
+}
+
+.sommaire-1 {
+    padding-bottom: 10px;
+}
+
+.sommaire-2 ol{
+    line-height: 8px;
+    font-variant-caps:all-small-caps
+}
+
+.sommaire-2 a {
+    text-decoration: none;
+    color: #18253d;
+    transition: ease-in-out 0.1s;
+    font-weight: 600;    
+}
+
+.sommaire-2 a:hover {
+    color: #18253d81;
+}
+
+.sommaire-2 {
+    padding-bottom: 10px;
+}
+
+.all_sommaire {
+    display: flex;
+    position: relative;
+    margin-left: 12%;    
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    font-weight: 600;
+}  
+
+footer .menu_principal {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+footer .menu_principal:hover {
+    color: rgb(226, 43, 52);
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+section.top_page {
+    background: rgb(74, 131, 206);
+    border: 3px;
+    border-style:solid;
+    border-color: rgb(23, 102, 204);
+    border-radius: 15px;   
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+.nav {
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    margin-left: 30px;
+}
+
+.nav li {
+    font-size: 24px;
+    font-family: Georgia, 'sans-forgetica', Times, serif;
+    color: white;
+    font-size: 32px;    
+}
+
+.title_asso {
+    width: 90%;
+}
+
+.back_page {
+    display: flex;
+    justify-content: right;
+    margin: 5px 100px;
+    margin-right: 15px;
+    font-size:medium;
+    text-decoration: none;
+    color: black;
+}
+
+.back_page a:hover {
+    color: #18253d81;
+}
+
+.back_page a {
+    text-decoration: none;
+    color: #18253d;
+}
+
+#but_asso, #role, #adhesions, #responsabilites, #protection, #information, #tenue, #engagements, #materiel, #vol, #message_asso  {
+    margin: 7px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#but_asso {
+    font-family:'roboto', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#top_page h1 {
+    position:relative;
+    text-align: center;
+    font-size: 28px;
+    padding: 3%;
+    color: #18253d
+}
+
+#top_page h3 {
+    color: #18253d;
+    position:relative;
+    text-align: left ;
+    margin-left: 137px;
+}
+
+#message_asso {
+    font-family:'roboto', Courier, monospace;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* cibler et insérer avant */
+/* section p::before {
+    content: ' [p] ';
+    color: red;
+} */
+
+/* test */

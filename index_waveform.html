@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_waveform.css">
+    <title>Toaster box !</title>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="music">
+            <img src="media/logo_gbfr_rogné.png" alt="">
+            <div class="info">
+                <h1>Toaster Box !</h1>
+                <p>Ray Parker Jr. - Ghostbusters</p>
+                <div id="waveform"></div>
+                <div class="controls">
+                    <img src="media/play_icon.png" alt="" id="playBtn">
+                    <img src="media/stop_icon.png" alt="" id="stopBtn">
+                    <img src="media/volume_icon.png" alt="" id="volumeBtn">
+                </div>                
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        var playBtn = document.getElementById("playBtn")
+        var stopBtn = document.getElementById("stopBtn")
+        var volumeBtn = document.getElementById("volumeBtn")
+
+        var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: 'red',
+            progressColor: '#03cebf',
+            barWidth: 2,
+            height: 100,
+            responsive: true,
+            hideScrollbar: true,          
+        });
+
+        wavesurfer.load("media/Ghostbusters.mp3");
+
+        playBtn.onclick = function(){
+            wavesurfer.playPause();
+            if (playBtn.src.includes("media/play_icon.png")){
+                playBtn.src = "media/pause_icon.png";
+            }else{
+                playBtn.src = "media/play_icon.png";
+            }            
+        
+        }
+        stopBtn.onclick = function(){
+            wavesurfer.stop();
+            playBtn.src = "media/play_icon.png";
+        }
+        volumeBtn.onclick = function(){
+            wavesurfer.toggleMute();
+            wavesurfer.playPause();
+            if (volumeBtn.src.includes("media/volume_icon.png")){
+                volumeBtn.src = "media/mute_icon.png";
+            }else{
+                volumeBtn.src = "media/volume_icon.png";
+            }   
+        }
+        wavesurfer.on('finish', function () {
+            playBtn.src = "media/play_icon.png";
+            wavesurfer.stop();
+
+        
+    });
+
+
+    </script>
+
+</body>
+</html>
+
+<!-- test -->

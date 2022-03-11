@@ -1,0 +1,497 @@
+
+html {
+    
+    margin-left: auto;
+    margin-right: auto;
+    scroll-behavior: smooth;
+    background: linear-gradient(-90deg, rgb(255, 0, 179) -400%, rgb(8, 27, 113) 100%);
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    /* background-color: black; */
+    margin-left: 3px;
+    margin-top: 12px;    
+    width: 35px;    
+}
+
+/* titre principal asso */
+.big-title {
+    /* background-color: black; */
+    width: 900px;
+    margin-top: 60px;
+    margin-left: 50px;
+      
+}
+
+#big_title {
+    color: whitesmoke;
+}
+
+section.top-page {
+    background: url("artwork_data/Fond GBFR site web bleu fumée.png") no-repeat ;    
+    /* background-color: #9c2929; */
+    background-size:auto;
+    height: 400px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #2952a3;
+    border-radius: 15px;   
+}
+
+.logo_link {
+    /* background: red; */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.scroll-down {
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 61vh;
+    transition: ease-in-out 0.1s;
+    text-shadow: #000000 1px 1px 2px;
+    
+    
+}
+
+.scroll-down:hover {
+    color: #b0caff;
+    transform: scale(1.2);    
+}
+
+/* Menu de navigation */
+
+nav.nav {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 10px;
+        
+}
+
+nav.nav li {
+    color: black;
+    font-size: large;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 1s ease-out;
+}
+
+
+
+nav.nav li a {
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    /* outline: 0; */
+    padding: 8px 12px;
+    /* text-align: center; */
+    font: bold 12px Verdana;
+    transition: all 0.6s;
+    color: #4265aa;
+}
+
+nav.nav li a:hover {
+    color: whitesmoke;
+    background-color: #90a5ce;
+    opacity: 0.8;
+}
+
+/* section_menu_principal */
+
+.section_menu_principal {
+    /* background: red; */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    /* background-color: #3058a4; */
+    display: flex;
+    justify-content: space-evenly;    
+    border: #24375d;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    
+}
+
+.item-menu {
+    max-width: 220px;
+    border-radius: 5%;
+    transition: 0.3s ease-in-out;    
+}
+
+.item-menu:hover {
+    opacity: 0.7;    
+    transform: scale(1.05);
+}
+
+.menu-item {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: large;
+    color: whitesmoke;
+}
+
+.menu-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.footer2 {
+    /* background: red; */
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;      
+}
+
+
+.footer1 {
+    /* background: red; */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #2952a3;
+    border-radius: 15px;
+    background: #fff url(artwork_data/NYC\ bridge2.jpg) center center/cover no-repeat;         
+    color: #fffae1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+.buzzer img{
+    display: flex;
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;    
+}
+
+.buzzers {
+    display: flex;
+    justify-content: space-around;
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+footer a.charte {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+.drgregg {
+    font-size: 12px;
+}
+
+/******* FORMULAIRE ********/
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
+
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: #fffae1;
+    transition: 0.35s ease-in-out;
+}
+
+button:hover {
+    background-color:#ba2126;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+section.video_youtube source {
+    width: 10%;
+    height: 10%;
+}
+
+
+
+/* .video_replay {
+    background: #9c2929;
+    text-align: center;    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:25px;
+    padding-bottom: 25px;    
+} */
+
+
+
+.video_title {
+    text-align: center;
+    font-size: 0.8em;    
+}
+
+.montage_video video {
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 0px;
+    margin-bottom: 100px;
+    height: 35%;
+    border-style: solid;
+    border-radius: 15px;
+    position: relative;
+    top: -120px;
+}
+
+/* .video_youtube {
+    background: #000000;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;    
+} */
+
+.title_youtube_section {
+    
+    /* background-color: #3058a4; */
+    width: 530px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title_youtube_section h2 {
+    margin-top: 0%;
+    font-size: 1.5em;
+}
+
+.section_video {
+    background: url("artwork_data/salle_cinéma.jpg") center center/cover no-repeat;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #2952a3;    
+}
+
+.footer1 h2 {
+    color: whitesmoke;
+    text-shadow: #000000 2px 1px 0px;
+}
+
+
+.logo_facebook img, .logo_youtube img, .logo_instagram img {   
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;    
+    border-style: solid;
+    border-color: #fffae1;
+    border-radius: 50px;
+    background-color: #fffae1;
+    transition: ease-in-out 0.3s;
+    opacity: 0.8
+    
+    
+}
+
+.logo_facebook img:hover, .logo_youtube img:hover, .logo_instagram img:hover {
+    color: #b0caff;
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+div.logo_link {    
+    /* background: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.logo_link {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    background: linear-gradient(rgba(0,0,0,0.5), #3058a4), url(artwork_data/Ecto3_02.jpg) center/cover no-repeat;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #2952a3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.musique {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 10px;
+}
+
+.musique img {
+    width: 300px;
+}
+.info {
+    color: #fffae1;
+    margin-left: 30px;
+    flex: 1;
+}
+
+.info p {
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+
+.waveform {
+    background: red;
+    width: 300px;
+} */
+
+/* wavesurfer good version */
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), #030f34), url("media/Ecto3_02.jpg");
+    width: 1000px;
+    height: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #2952a3;
+}
+
+
+
+.music img {
+    /* background: greenyellow; */
+    width: 300px;
+}
+
+.music {
+    width: 85%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.info {
+    color: whitesmoke;
+    margin-left: 30px;
+    flex: 1;
+    margin: 10px 10 60px;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.controls img {
+    background: whitesmoke;
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* test */

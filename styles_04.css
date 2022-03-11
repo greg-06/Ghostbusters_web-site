@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+html {
+    height: 5300px;
+    background: black;
+    color: antiquewhite;
+    font-family:Georgia, 'sans forgetica', Times, serif;
+    background: linear-gradient(-90deg, chartreuse -600%, black 100%);
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* titre principal de la page */
+
+h1 {
+    /* background:red; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.6em;
+    background: -webkit-linear-gradient(antiquewhite, chartreuse);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    border-style: solid;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+/* liste des activités */
+.list_activites1 {
+    /* background: red; */
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.list_activites1 a {
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.6s;
+}
+
+.list_activites1 a:hover {
+    color: chartreuse;
+}
+
+.list_activites2 {
+    /* background: red; */
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.list_activites2 a {
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.6s;
+}
+
+.list_activites2 a:hover {
+    color: chartreuse;
+}
+
+/* titre de l'activité */
+
+h3 {
+    /* background: purple; */
+    color: #da9c02;
+    font-size: 2em;
+    background: -webkit-linear-gradient(#ffef96, #da9c02);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.sommaire_activites {
+    /* background: red; */
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.slimer_activites img{
+    /* background: greenyellow; */
+    height: 200px;  
+}
+
+.slimer_activites {
+    
+    /* background: purple; */
+    height: 200px;
+}
+
+.section_sommaire {
+    display: flex;
+    align-items: center;
+}
+
+/* caracteristiques de l'activité */
+
+.caracteristiques_activite {
+    /* background: orange; */
+    list-style: none;
+    font-size: 1em;
+}
+
+/* titre "principe du jeu" */
+
+.description_title {
+    /* background: green; */
+    font-size: 1.5em;
+}
+
+/* description de l'activité */
+
+.description_activite {
+    /* background: cyan; */
+    list-style: none;
+}
+
+
+
+.acceuil {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: ease-in-out 0.5s;
+    color: rgb(247, 0, 255);
+    position: absolute;
+    top: 290px;
+}
+
+.acceuil:hover {
+    color: chartreuse;
+}
+
+.mini_menu_section a{
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+    color: rgb(247, 0, 255);
+    font-size: 0.9em;
+    margin-left: 900px;
+}
+
+.mini_menu_section a:hover {
+    color: chartreuse;
+}
+
+footer a.charte {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    font-weight: 600;  
+}

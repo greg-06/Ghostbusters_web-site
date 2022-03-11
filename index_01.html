@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_01.css">
+    <title>Page test</title>
+    <script src="https://kit.fontawesome.com/91abbb81dd.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+</head>
+<body>
+    <section class="top-page">
+        <header class="header">
+            <a href="index_01.html"><img src="artwork_data/logo_gbfr_rogné.png" alt="Logo du site"></a>
+            <nav class="nav">
+                <li><a href="index_02.html">L'association</a></li>
+                <li><a href="#partners">Partenaires</a></li>
+                <li><a href="#footer_scroll">Contactez-nous</a></li>
+            </nav> 
+        </header>
+        <div class="landing-page">
+            <img class="big-title" src="artwork_data/another_logo_gbfr_vid.png" alt="titre principal">
+        </div>
+        <a class="scroll-down" href="#footer_scroll">Scroll <i class="fa-solid fa-angle-down"></i></a>        
+    </section>
+    <section class="section_logo_link">
+        <div class="logo_link">
+            <li class="logo_facebook"><a href="https://www.facebook.com/groups/1043822926034153"><img src="artwork_data/logo/facebook-icones.png" alt=""></a></li>
+            <li class="logo_instagram"><a href="https://www.instagram.com/ghostbustersfrenchriviera/?hl=fr"><img src="artwork_data/logo/icon instagralm.png" alt=""></a></li>
+            <li class="logo_youtube"><a href="https://www.youtube.com/channel/UCi7HfDDoV8ldcQ3jorpakfA"><img src="artwork_data/logo/YouTube-logo.png" alt=""></a></li>            
+        </div>
+    </section>
+    
+    
+    
+    
+    <section class="section_menu_principal">
+        <div class="menu-item">
+            <a href=""><img class="item-menu" src="artwork_data/peter_venkman_final.png" alt="image-actu"></a>
+            <p class="menu-details">News / Actu</p>
+        </div>
+        <div class="menu-item">
+            <a href="index_04.html"><img class="item-menu" src="artwork_data/Bibendum_final.png" alt="image-bibendum"></a>
+            <p class="menu-details">Activités paranormales</p>
+        </div>
+        <div class="menu-item">
+            <a href="index_03.html"><img class="item-menu" src="artwork_data/caserne_ghostbusters_final.png" alt="image-caserne"></a>
+            <p class="menu-details">Armoire de stockage</p>
+        </div>
+        <div class="menu-item">
+            <a href=""><img class="item-menu" src="artwork_data/louis_tully_final.png" alt="image-louis"></a>
+            <p class="menu-details">Le laboratoire</p>
+        </div>
+    </section>
+    <section class="section_video">
+        <section class="title_youtube_section">
+        <div class="video_title">
+                <h2 id="big_title">Ghostbusters French Riviera au RE-PLAY de Mouans-Sartoux</h2>
+            </div>
+        </section>
+        <section class="video_youtube">
+            <div class="montage_video">
+                <video controls="controls" poster="">
+                <source src="video/GBFR RE-PLAY festival 2021.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        </section>
+    <div class="container">
+        <div class="music">
+            <img src="media/logo_gbfr_rogné.png" alt="">
+            <div class="info">
+                <h1>Ghostbusters Theme Song</h1>
+                <p>Ray Parker Jr. - Ghostbusters</p>
+                <div id="waveform"></div>
+                <div class="controls">
+                    <img src="media/play_icon.png" alt="" id="playBtn">
+                    <img src="media/stop_icon.png" alt="" id="stopBtn">
+                    <img src="media/volume_icon.png" alt="" id="volumeBtn">
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!-- <section class="separateur_3">
+        <div>
+            <p><br></p>
+        </div> -->
+    <footer class="footer1">
+        <div class="buzzers">
+            <h2 class="buzzer">                
+                <span>Contactez-nous</span>
+                <img src="artwork_data/buzzer red.png" alt="buzzer_contact">
+            </h2>
+        </div>
+        
+            <form>
+                <input placeholder="Nom">
+                <input placeholder="E-mail">
+                <textarea placeholder="Tapez votre message ici..."></textarea>
+                <button type="submit">Envoyez le message</button>
+            </form>
+    </footer>    
+    <footer class="footer2" id="footer_scroll">
+        <p class="copyright">&copy; 2022 - Ghostbusters French Riviera</p>
+        <a href="index_02.html" class="charte">Charte de l'association</a>
+        <p class="drgregg">@DrGregg</p>
+    </footer>
+    <script>
+        var playBtn = document.getElementById("playBtn")
+        var stopBtn = document.getElementById("stopBtn")
+        var volumeBtn = document.getElementById("volumeBtn")
+
+        var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: '#ff34bc',
+            progressColor: '#adff2f',
+            barWidth: 2,
+            height: 100,
+            responsive: true,
+            hideScrollbar: true,          
+        });
+
+        wavesurfer.load("media/Ghostbusters.mp3");
+
+        playBtn.onclick = function(){
+            wavesurfer.playPause();
+            if (playBtn.src.includes("media/play_icon.png")){
+                playBtn.src = "media/pause_icon.png";
+            }else{
+                playBtn.src = "media/play_icon.png";
+            }            
+        
+        }
+        stopBtn.onclick = function(){
+            wavesurfer.stop();
+            playBtn.src = "media/play_icon.png";
+        }
+        volumeBtn.onclick = function(){
+            wavesurfer.toggleMute();
+            wavesurfer.playPause();
+            if (volumeBtn.src.includes("media/volume_icon.png")){
+                volumeBtn.src = "media/mute_icon.png";
+            }else{
+                volumeBtn.src = "media/volume_icon.png";
+            }   
+        }
+        wavesurfer.on('finish', function () {
+            playBtn.src = "media/play_icon.png";
+            wavesurfer.stop();
+
+        
+    });
+
+
+    </script>    
+</body>
+</html>
+
+<!-- test -->
+

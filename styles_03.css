@@ -1,0 +1,54 @@
+html {
+    background: black;
+    color: antiquewhite;
+}
+
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .images {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(74, 131, 206);
+    border-width: 5px;
+} */
+
+.title_section {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cards {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;    
+    border-radius: 15px;
+    
+}
+
+.top_page .big_title {
+    font-size: 48px;
+    text-align: center;
+}
+
+.nos_cartes_jeux {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.images {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: greenyellow;
+}
+
+/* test */
