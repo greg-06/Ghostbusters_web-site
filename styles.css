@@ -36,7 +36,7 @@ header.header img {
 
 /* video title youtube */
 #title_video {
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
     margin-top: 5px;    
     color: whitesmoke;
     text-shadow: black 2px 2px 2px;    
@@ -54,7 +54,7 @@ section.top-page {
     border-style: solid;
     border-color: #2952a3;
     border-radius: 15px; 
-    border-width: 3px;  
+    border-width: 1px;  
 }
 
 /* section all logo */
@@ -71,18 +71,18 @@ section.top-page {
 .scroll-down {
     /* background: greenyellow; */
     color: white;
-    font-size: 1.3em; 
+    font-size: 1.2em; 
     justify-content: center;    
     text-decoration: none;
     display: flex;
     width: 100px;
-    margin-top: 320px;
+    margin-top: 240px;
     transition: ease-in-out 0.3s;
-    text-shadow: #000000 1px 1px 2px;    
+        
 }
 
 .scroll-down:hover {
-    color: #b0caff;
+    color: #90a5ce;
     transform: scale(1.2);    
 }
 
@@ -135,9 +135,9 @@ nav.nav li a:hover {
     /* background-color: #3058a4; */
     display: flex;
     justify-content: space-evenly;    
-    border: #24375d;
+    border: #2952a3;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     border-radius: 15px;
     
 }
@@ -187,7 +187,7 @@ nav.nav li a:hover {
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     border-color: #2952a3;
     border-radius: 15px;
     background: #fff url(artwork_data/NYC\ bridge2.jpg) center center/cover no-repeat;         
@@ -262,7 +262,7 @@ button:hover {
     /* background-color:#ba2126; */
     color: #ffffff;
     cursor: pointer;
-    
+    background: #ba2126;    
 }
 
 section.video_youtube source {
@@ -295,6 +295,7 @@ section.video_youtube source {
     height: 35%;
     border-style: solid;
     border-radius: 6px;
+    border-width: 6px;
     position: relative;
     top: -120px;
 }
@@ -330,7 +331,7 @@ section.video_youtube source {
     border-style: solid;
     border-radius: 15px;
     border-color: #2952a3;
-    border-width: 3px;    
+    border-width: 1px;    
 }
 
 .footer1 h2 {
@@ -390,7 +391,7 @@ div.logo_link {
     justify-content: center;
     border-style: solid;
     border-radius: 15px;
-    border-width: 3px;
+    border-width: 1px;
     border-color: #2952a3;
 }
 
