@@ -53,7 +53,7 @@ section.top-page {
     margin-right: auto;
     border-style: solid;
     border-color: #2952a3;
-    border-radius: 15px; 
+    border-radius: 7px; 
     border-width: 1px;  
 }
 
@@ -138,7 +138,7 @@ nav.nav li a:hover {
     border: #2952a3;
     border-style: solid;
     border-width: 1px;
-    border-radius: 15px;
+    border-radius: 7px;
     
 }
 
@@ -189,7 +189,7 @@ nav.nav li a:hover {
     border-style: solid;
     border-width: 1px;
     border-color: #2952a3;
-    border-radius: 15px;
+    border-radius: 7px;
     background: #fff url(artwork_data/NYC\ bridge2.jpg) center center/cover no-repeat;         
     color: #fffae1;
     padding: 20px 0 10px 0;
@@ -329,7 +329,7 @@ section.video_youtube source {
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 7px;
     border-color: #2952a3;
     border-width: 1px;    
 }
@@ -345,7 +345,7 @@ section.video_youtube source {
     margin-top: 0px;    
     border-style: solid;
     border-color: #fffae1;
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: #fffae1;
     transition: ease-in-out 0.3s;
     opacity: 0.8  
@@ -390,7 +390,7 @@ div.logo_link {
     align-items: center;
     justify-content: center;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 7px;
     border-width: 1px;
     border-color: #2952a3;
 }
