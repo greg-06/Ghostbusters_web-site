@@ -189,6 +189,61 @@ section.top_page {
 
 
 
+/* titre vidéo youtube */
+#title_video {
+    background: url("artwork_data/clap_cinéma_digit.png") no-repeat;    
+    color: whitesmoke;
+    width: 1000px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;        
+}
+
+.video_title {
+    text-align: center;
+    font-size: 0.8em;    
+}
+
+.montage_video video {
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 0px;
+    margin-bottom: 100px;
+    height: 35%;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 6px;
+    position: relative;
+}
+
+.title_youtube_section h2 {
+    font-size: 1.5em;
+    height: 250px;
+}
+
+.section_video {
+    background: url("artwork_data/salle_cinéma_bleu_lightFX.jpg") center center/cover no-repeat;
+    width: 1000px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #2952a3;
+    border-width: 1px;    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -283,87 +338,12 @@ button {
 }
 
 button:hover {
-    /* background-color:#ba2126; */
     color: #ffffff;
     cursor: pointer;
     background: #ba2126;    
 }
 
-/* video title youtube */
-#title_video {
-    /* background: rebeccapurple; */
-    margin-top: -30px;    
-    color: whitesmoke;        
-}
 
-section.video_youtube source {
-    width: 10%;
-    height: 10%;
-}
-
-/* .video_replay {
-    background: #9c2929;
-    text-align: center;    
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:25px;
-    padding-bottom: 25px;    
-} */
-
-.video_title {
-    text-align: center;
-    font-size: 0.8em;    
-}
-
-.montage_video video {
-    display: flex;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;    
-    margin-top: 0px;
-    margin-bottom: 100px;
-    height: 35%;
-    border-style: solid;
-    border-radius: 6px;
-    border-width: 6px;
-    position: relative;
-    top: -120px;
-}
-
-/* .video_youtube {
-    background: #000000;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;    
-} */
-
-.title_youtube_section {
-    
-    /* background-color: #3058a4; */
-    width: 530px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.title_youtube_section h2 {
-    margin-top: 0%;
-    font-size: 1.5em;
-}
-
-.section_video {
-    background: url("artwork_data/salle_cinéma_bleu_lightFX.jpg") center center/cover no-repeat;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-radius: 7px;
-    border-color: #2952a3;
-    border-width: 1px;    
-}
 
 .footer1 h2 {
     color: whitesmoke;
