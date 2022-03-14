@@ -11,7 +11,6 @@ html {
 }
 
 body {
-    margin: 6.2%;
     text-align: justify;
     font-family: Georgia, 'sans-forgetica', Times, serif;
     font-size: 14px;
@@ -42,21 +41,19 @@ ul {
     color: #18253d;
     transition: ease-in-out 0.1s;
     font-weight: 600;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
 }
 
-#top_page {
-    border-style: solid;
-    border-radius: 15px;
-    border-color: rgb(74, 131, 206);
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 
 .sommaire-1 a:hover {
-    color: #18253d81;
+    color: antiquewhite;
 }
 
 .sommaire-1 {
+    /* background: green; */
+    width: 380px;
+    margin-left: 170px;
     padding-bottom: 10px;
 }
 
@@ -66,26 +63,31 @@ ul {
 }
 
 .sommaire-2 a {
+    
     text-decoration: none;
     color: #18253d;
     transition: ease-in-out 0.1s;
-    font-weight: 600;    
-}
-
-.sommaire-2 a:hover {
-    color: #18253d81;
+    font-weight: 600;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;    
 }
 
 .sommaire-2 {
+    /* background: greenyellow; */
+    margin-right: 100px;
+    width: 380px;
     padding-bottom: 10px;
 }
 
-.all_sommaire {
-    display: flex;
-    position: relative;
-    margin-left: 12%;    
+.sommaire-2 a:hover {
+    color: antiquewhite;
 }
 
+.all_sommaire {    
+    /* background: red; */
+    display: flex;    
+    left: auto;
+    right: auto;  
+}
 
 footer {
     display: flex;
@@ -111,16 +113,13 @@ footer .menu_principal:hover {
 
 section.top_page {
     background: rgb(74, 131, 206);
-    border: 3px;
+    border: 1px;
     border-style:solid;
-    border-color: rgb(23, 102, 204);
-    border-radius: 15px;   
+    border-color: rgb(23, 102, 204);  
     display: flex;
     margin: auto;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 50px;
+    margin-top: 5px;
+    height: 400px;
 }
 
 .nav {
@@ -140,7 +139,15 @@ section.top_page {
 }
 
 .title_asso {
-    width: 90%;
+    width: 90%;  
+}
+
+.nav li {
+    margin-bottom: 20px;
+}
+
+.nav img {
+    width: 900px;
 }
 
 #but_asso, #role, #adhesions, #responsabilites, #protection, #information, #tenue, #engagements, #materiel, #vol, #message_asso  {
@@ -160,18 +167,16 @@ section.top_page {
 }
 
 #top_page h1 {
-    position:relative;
+    height: 15px;
     text-align: center;
     font-size: 28px;
-    padding: 3%;
     color: #18253d
 }
 
-#top_page h3 {
+#top_page h2 {
     color: #18253d;
-    position:relative;
-    text-align: left ;
-    margin-left: 137px;
+    text-align: center;
+    margin-bottom: 30px; 
 }
 
 #message_asso {
@@ -181,6 +186,20 @@ section.top_page {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#message_asso p a img {
+    background: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 1px;
+    opacity: 1;
+    width: 500px;
+    /* background: url("artwork_data/ghostbusters_title_official.png"); */
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    text-decoration: none;
+    color: greenyellow;
+    text-shadow: rgb(13, 43, 9) 1px 1px 4px;
 }
 
 /* la barre de navigation */

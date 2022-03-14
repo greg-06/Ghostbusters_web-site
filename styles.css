@@ -375,7 +375,7 @@ footer .form_send button {
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
-    background-image: linear-gradient(rgb(0,0,0,0.5), #030f34), url("media/Ecto3_02.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.3), #030f34), url("artwork_data/ecto1_affiche_afterlife_1200x265.png");
     max-width: 1200px;
     height: 265px;
     margin-left: auto;
