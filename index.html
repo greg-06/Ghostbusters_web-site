@@ -10,6 +10,8 @@
     <script src="https://unpkg.com/wavesurfer.js"></script>
 </head>
 <body>
+
+
     <section class="top_page">
         <header class="header">
             <a href="index.html"><img src="artwork_data/logo_gbfr_rogné.png" alt="Logo du site"></a>
@@ -30,13 +32,17 @@
         </div>
         <a class="scroll_down" href="#footer_scroll">Scroll <i class="fa-solid fa-angle-down"></i></a>        
     </section>
+
+
     <section class="section_logo_link">
         <div class="logo_link">
             <li class="logo_facebook"><a href="https://www.facebook.com/groups/1043822926034153" target="_blank"><img src="artwork_data/logo/facebook-icones.png" alt=""></a></li>
             <li class="logo_instagram"><a href="https://www.instagram.com/ghostbustersfrenchriviera/?hl=fr" target="_blank"><img src="artwork_data/logo/icon instagralm.png" alt=""></a></li>
             <li class="logo_youtube"><a href="https://www.youtube.com/channel/UCi7HfDDoV8ldcQ3jorpakfA" target="_blank"><img src="artwork_data/logo/YouTube-logo.png" alt=""></a></li>            
         </div>
-    </section>    
+    </section>
+    
+    
     <section class="section_menu_principal">
         <div class="menu_item">
             <a href=""><img class="item_menu" src="artwork_data/peter_venkman_final.png" alt="image-actu"></a>
@@ -55,21 +61,30 @@
             <p class="menu_details">Le laboratoire</p>
         </div>
     </section>
-    <div class="video_title">
-        <h2 id="title_video">Ghostbusters French Riviera au RE-PLAY de Mouans-Sartoux</h2>
-    </div>
-    <section class="section_video">
-        <section class="video_youtube">
+
+
+    <section class="section_title_video">
+        <div class="clap">
+            <img src="artwork_data/clap_cinéma_digit.png" alt="">
+        </div>
+        <div class="video_title">
+            <h2 id="title_video">Ghostbusters French Riviera<br>RE-PLAY de Mouans-Sartoux</h2>
+        </div>
+    </section>
+
+
+    <section class="section_video">        
             <div class="montage_video">
                 <video controls="controls" poster="">
                 <source src="video/GBFR RE-PLAY festival 2021.mp4" type="video/mp4">
                 </video>
             </div>
-        </section>
-        </section>
-    <div class="container">
+    </section>
+
+
+    <section class="container">
         <div class="music">
-            <img src="media/logo_gbfr_rogné.png" alt="">
+            <img id="gb_music" src="artwork_data/logo_gb_lecteur_multimedia_200x200.png" alt="">
             <div class="info">
                 <h1>Ghostbusters Theme Song</h1>
                 <p>Ray Parker Jr. - Ghostbusters</p>
@@ -81,26 +96,34 @@
                 </div>                
             </div>
         </div>
-    </div>
-    <footer class="footer1">
+    </section>
+
+
+    <section class="section_contact">
+    <div class="footer1">
         <div class="buzzers">
             <h2 class="buzzer">                
                 <span>Contactez-nous</span>
                 <img src="artwork_data/buzzer red.png" alt="buzzer_contact">
             </h2>
         </div>        
-            <form>
+            <form class="form_send">
                 <input placeholder="Nom">
                 <input placeholder="E-mail">
                 <textarea placeholder="Tapez votre message ici..."></textarea>
-                <button type="submit">Envoyez le message</button>
+                <button class="send" type="submit">Envoyez le message</button>
             </form>
-    </footer>    
-    <footer class="footer2" id="footer_scroll">
+        </div>
+    </section>
+    
+    
+    <footer class="footer2">
         <p class="copyright">&copy; 2022 - Ghostbusters French Riviera</p>
         <a href="index_02.html" class="charte">Charte de l'association</a>
         <p class="drgregg">@DrGregg</p>
     </footer>
+    
+    
     <script>
         var playBtn = document.getElementById("playBtn")
         var stopBtn = document.getElementById("stopBtn")
@@ -142,15 +165,9 @@
         }
         wavesurfer.on('finish', function () {
             playBtn.src = "media/play_icon.png";
-            wavesurfer.stop();
-
-        
+            wavesurfer.stop();        
     });
-
-
     </script>    
 </body>
 </html>
-
-<!-- test -->
 

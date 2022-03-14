@@ -7,6 +7,7 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
 }
 
 /* .images {

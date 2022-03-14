@@ -21,6 +21,7 @@ body {
     border-style: solid;
     border-color: blanchedalmond;
     box-shadow: 5px 5px 6px black;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
 }
 
 ol {
