@@ -110,10 +110,12 @@
         </div>        
             <form class="form_send" action="https://formsubmit.co/gregory06@live.fr" method="POST">
                 <input type="hidden" name="_subject" value="New email!">
+                <input type="text" name="name" placeholder="Nom" required >
                 <input placeholder="E-mail" type="email" name="email" required>
-                <input type="hidden" name="_next" value="https://ghostbusters-fr.netlify.app/thankyou.html">
+                <input type="hidden" name="_next" value="https://ghostbusters-fr.netlify.app/thanks.html">
+                
                 <textarea type="text" name="message" placeholder="Tapez votre message ici..." required></textarea>
-                <input type="text" name="name" placeholder="Nom" required >     
+                     
                 <button class="send" type="submit">Envoyez le message</button>
             </form>
         </div>
