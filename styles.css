@@ -217,16 +217,14 @@ section.top_page {
 
 
 .montage_video video {
-    background-color: #ba2126;
+    /* background-color: #ba2126; */
     display: flex;
-    width: 469px;
+    width: 470px;
     margin-left: auto;
     margin-right: auto;    
     margin-bottom: 100px;
-    height: 35%;
-    border-style: solid;
-    border-radius: 6px;
-    border-width: 7px;
+    height: 260px;
+    
     position: relative;
 }
 
@@ -236,7 +234,7 @@ section.top_page {
 }
 
 .section_video {
-    background: url("artwork_data/salle_cinéma_bleu_lightFX.jpg") center center/cover no-repeat;
+    background: url("artwork_data/cinéma_fx_final.png") center center/cover no-repeat;
     width: 1200px;
     height: 520px;
     margin-left: auto;
