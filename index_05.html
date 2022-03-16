@@ -4,12 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles_03.css">
-    <title>L'armoire de stockage</title>
+    <link rel="stylesheet" href="styles_05.css">
+    <title>Registration</title>
 </head>
 <body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+            <div class="user_details">
+                <div class="input_box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placehorder="Enter your name" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Username</span>
+                    <input type="text" placehorder="Enter your username" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">E-mail</span>
+                    <input type="text" placehorder="Enter your e-mail" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placehorder="Enter your num" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Password</span>
+                    <input type="text" placehorder="Enter your password" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placehorder="Confirm your password" required>
+                </div>
+            </div>
+            <div class="gender_details">
+                <input type="radio" name="gender" id="dot_1">
+                <input type="radio" name="gender" id="dot_2">
+                <input type="radio" name="gender" id="dot_3">
+                <span class="gender_title">Gender</span>
+                <div class="category">
+                    <label for="dot_1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot_2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot_3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
     
 </body>
 </html>
-
-<!-- test -->
