@@ -68,7 +68,7 @@ nav.nav li a:hover {
 /* smoke background big title */
 section.top_page {
     /* background-color: #ba2126; */
-    background: url("artwork_data/landing_page_smoke_blu_1200x500.png") no-repeat ;   
+    background: url("artwork_data/landing_page_smoke_blu_1200x500.png");   
     height: 500px;
     width: 1200px;
     margin-left: auto;
