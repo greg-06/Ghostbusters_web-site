@@ -1,0 +1,30 @@
+html {    
+    margin-left: auto;
+    margin-right: auto;
+    scroll-behavior: smooth;
+    background: linear-gradient(-90deg, rgb(255, 0, 179) -400%, rgb(8, 27, 113) 100%);
+}
+
+body {
+    margin: 0 auto;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+}
+
+.background {
+    background: url("artwork_data/wall_web_site_GBFR.png");
+}
+
+.merci {
+    background: transparent;
+    color: whitesmoke;
+    font-size: 2em;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    border-style: solid;
+    border-width: 1px;
+    
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+}
+
+
