@@ -3,7 +3,6 @@
 
 
 html {
-    height: 5300px;
     background: black;
     color: antiquewhite;
     font-family:Georgia, 'sans forgetica', Times, serif;
@@ -12,7 +11,7 @@ html {
 }
 
 body {
-    width: 1000px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
