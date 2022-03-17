@@ -30,7 +30,7 @@ header.header img {
 }
 
 /* Menu de navigation */
-nav.nav {
+nav.nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -123,7 +123,7 @@ section.top_page {
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
 }
 
-.logo_link {    
+.logo_link ul {    
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -362,15 +362,12 @@ input, button, textarea {
     margin-bottom: 3px;
 }
 
-::placeholder {
-    color: whitesmoke;    
+input:focus, textarea:focus {
+    outline: none;
 }
 
-
-
-.footer1 h2 {
-    color: whitesmoke;
-    text-shadow: #000000 2px 1px 0px;
+::placeholder {
+    color: whitesmoke;  
 }
 
 input:hover, textarea:hover, button:hover,
@@ -382,11 +379,8 @@ input[type="submit"]:focus {
 }
 
 .send {
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
-    
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;    
 }
-
-
 
 /* wavesurfer good version */
 
