@@ -44,7 +44,14 @@ ul {
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
 }
 
-
+#nom img {
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 
 .sommaire-1 a:hover {
     color: antiquewhite;
@@ -155,6 +162,10 @@ section.top_page {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#fondamentaux {
+    justify-content: center;
 }
 
 #but_asso {
