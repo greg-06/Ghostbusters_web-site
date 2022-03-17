@@ -363,7 +363,7 @@ input, button, textarea {
 }
 
 input:focus, textarea:focus {
-    outline: none;
+    outline-color: rgba(50, 22, 122, 0.548);
 }
 
 ::placeholder {
