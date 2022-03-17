@@ -150,7 +150,7 @@ section.top_page {
     width: 900px;
 }
 
-#but_asso, #role, #adhesion2, #responsabilites, #protection, #information, #tenue, #engagements, #materiel, #vol, #message_asso, #A, #B, #nom, #objet, #siege, #adhesion1, #cotisation, #assemblee, #membres_bureau, #finances, #modif_charte, #dissolution, #inactivite, #fondamentaux {
+#but_asso, #role, #adhesion2, #responsabilites, #protection, #information, #tenue, #engagements, #materiel, #vol, #message_asso, #A, #B, #nom, #objet, #siege, #adhesion1, #cotisation, #assemblee, #membres_bureau, #finances, #modif_charte, #dissolution, #inactivite, #fondamentaux, #membres {
     margin: 7px;
     width: 700px;
     margin-left: auto;
