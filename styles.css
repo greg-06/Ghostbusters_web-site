@@ -17,22 +17,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* la barre de navigation */
 /* header.header {
     display: flex;    
@@ -41,13 +25,13 @@ body {
 } */
 
 /* mini logo nav barre */
-/* header.header img {
+header.header img {
     display: flex;
     width: 45px;
     margin-left: 5px;
     margin-right: 30px;
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;    
-} */
+}
 
 /* Menu de navigation */
 /* nav.nav ul{
@@ -78,52 +62,56 @@ body {
 
 
 /* TEST la barre de navigation TEST */
+
+.dropdown-1, .dropdown-2, .dropdown-3 {
+    background-color: red;
+}
+
 header {
     width: 100%;
-    height: 100px;
     display: flex;    
-    align-items: center;
-    
+    align-items: ; 
+    background: yellow;  
 }
 
 header > a,
 header button {
     color: white;
-    margin: 0 15px;
+    margin: 0 0px;
     font-size: 1.3em;
 }
 
 header button {
+    width: 100%;
     background-color: transparent;
     border: none;
     outline: none;
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
 }
 
-header .dropdown-1 .content {
+header .dropdown-1 {
+    position: relative;
+    height: 100%;
+    display: flex;
+}
+
+header .dropdown-1 .contenu {
     display: none;
+    position: relative;
 }
 
-/* TEST mini logo nav barre TEST */
-header.header img {
+header .dropdown-1:hover .contenu {
+    display: block;
     display: flex;
-    width: 45px;
-    margin-left: 5px;
-    margin-right: 30px;
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;    
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    background-color: red;
+    width: 100%;
 }
 
-/* TEST Menu de navigation TEST */
-nav.nav {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 75%;
-    margin-left: 10px;          
-}
-
-/* TEST text menu nav TEST */
-nav.nav button {
+header .dropdown-1:hover .contenu a{
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 18px;
@@ -132,6 +120,109 @@ nav.nav button {
     transition: all 0.6s;
     color: #4265aa;
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    margin-top: 1px;    
+}
+
+header .dropdown-1 .contenu a:hover {
+    color: whitesmoke;
+    background-color: #90a5ce;
+    opacity: 0.8;
+}
+
+header .dropdown-2 .contenu {
+    display: none;
+    position: relative;
+}
+
+header .dropdown-2:hover .contenu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 30px;
+}
+
+header .dropdown-2:hover .contenu a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    padding: 8px 12px;
+    font: bold 14px Verdana;
+    transition: all 0.6s;
+    color: #4265aa;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    margin-top: 1px;    
+}
+
+header .dropdown-2 .contenu a:hover {
+    color: whitesmoke;
+    background-color: #90a5ce;
+    opacity: 0.8;
+}
+
+header .dropdown-3 .contenu {
+    display: none;
+    position: relative;
+    margin-left: 62px;
+}
+
+header .dropdown-3:hover .contenu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+header .dropdown-3:hover .contenu a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    padding: 8px 12px;
+    font: bold 14px Verdana;
+    transition: all 0.6s;
+    color: #4265aa;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    margin-top: 1px;    
+}
+
+header .dropdown-3 .contenu a:hover {
+    color: whitesmoke;
+    background-color: #90a5ce;
+    opacity: 0.8;
+}
+
+/* TEST mini logo nav barre TEST */
+/* header.header img {
+    display: flex;
+    width: 45px;
+    margin-left: 5px;
+    margin-right: 30px;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;    
+} */
+
+/* TEST Menu de navigation TEST */
+nav.nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* width: 75%; */
+    /* margin-left: 10px;           */
+    background: green;
+}
+
+/* TEST text menu nav TEST */
+nav.nav button {
+    width: 150px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    padding: 8px 12px;
+    font: bold 14px Verdana;
+    transition: all 0.6s;
+    color: #4265aa;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    background: pink;
 }
 
 nav.nav button:hover {
@@ -175,7 +266,7 @@ nav.nav button:hover {
 
 /* smoke background big title */
 section.top_page {
-    /* background-color: #ba2126; */
+    background-color: #ba2126;
     background: url("artwork_data/landing_page_smoke_blu_1200x500.png");   
     height: 500px;
     width: 1200px;
