@@ -38,7 +38,7 @@ header {
 header > a,
 header button {
     color: white;
-    margin: 0 0px;
+    margin: 0 5px;
     font-size: 1.3em;
 }
 
@@ -75,6 +75,7 @@ header .dropdown-1:hover .contenu {
 }
 
 header .dropdown-1:hover .contenu a{
+    background: red;
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 18px;
@@ -83,7 +84,8 @@ header .dropdown-1:hover .contenu a{
     transition: all 0.6s;
     color: #4265aa;
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
-    margin-top: 1px;    
+    margin-top: 1px;  
+      
 }
 
 header .dropdown-1 .contenu a:hover {
@@ -93,7 +95,7 @@ header .dropdown-1 .contenu a:hover {
 }
 
 /* ----------------------------------------------------- */
-/* --------------------dropdown-1------------------------ */
+/* --------------------dropdown-2------------------------ */
 header .dropdown-2 {
     position: relative;
     height: 100%;
@@ -135,7 +137,7 @@ header .dropdown-2 .contenu a:hover {
 }
 
 /* ----------------------------------------------------- */
-
+/* --------------------dropdown-3------------------------ */
 header .dropdown-3 {
     position: relative;
     height: 100%;
