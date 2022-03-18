@@ -125,8 +125,8 @@ section.top_page {
     border-color: rgb(23, 102, 204);  
     display: flex;
     margin: auto;
-    margin-top: 5px;
-    height: 400px;
+    margin-top: 10px;
+    height: 500px;
 }
 
 .nav {
@@ -134,7 +134,7 @@ section.top_page {
     padding: 15px;
     justify-content: space-between;
     list-style: none;
-    width: 600px;
+    width: 900px;
     margin-left: 30px;
 }
 
@@ -164,30 +164,61 @@ section.top_page {
     margin-right: auto;
 }
 
-#fondamentaux {
-    justify-content: center;
+#nom div h3, #objet div h3, #siege div h3, #adhesion1 div h3, #cotisation div h3, #assemblee div h3, #membres_bureau div h3, #finances div h3, #modif_charte div h3, #dissolution div h3, #inactivite div h3, #B div h3, #role div h3, #adhesion2 div h3, #responsabilites div h3, #interdictions div h3, #protection div h3, #information div h3, #tenue div h3, #engagements div h3, #vol div h3, #materiel div h3 {
+    background: #5581bfb0;
+    padding: 2px;
+    padding-left: 5px;
+    border-style: solid;
+    border-color: #18253d;
+    border-radius: 5px;
+    border-width: 1px;    
 }
 
-#but_asso {
+#but_asso, #fondamentaux{
     font-family:'roboto', Courier, monospace;
     font-size: 20px;
     font-style: italic;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 35px;
     padding-bottom: 10px;
 }
 
+.sommaire_title {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#A, #B, .sommaire_title {
+    background: #5581bfb0;
+    padding: 2px;
+    padding-left: 5px;
+    border-style: solid;
+    border-color: #18253d;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
 #top_page h1 {
-    height: 15px;
     text-align: center;
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;    
     font-size: 28px;
     color: #18253d
 }
 
 #top_page h2 {
     color: #18253d;
-    text-align: center;
-    margin-bottom: 30px; 
+    text-align: left;
+    margin-left: 210px;
+    margin-bottom: 30px;
+    margin-top: 80px;
 }
 
 #message_asso {
