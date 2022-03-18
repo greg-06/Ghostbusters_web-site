@@ -35,12 +35,13 @@ header {
     display: flex;
 }
 
-header > a,
+/* header > a,
 header button {
+    background: red;
     color: white;
     margin: 0 5px;
     font-size: 1.3em;
-}
+} */
 
 header button {
     width: 100%;
@@ -75,7 +76,7 @@ header .dropdown-1:hover .contenu {
 }
 
 header .dropdown-1:hover .contenu a{
-    background: red;
+    /* background: red; */
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 18px;
