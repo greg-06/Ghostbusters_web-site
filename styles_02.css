@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+* {
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+}
+
 
 html {
     background: url("artwork_data/wall_web_site_GBFR.png") fixed;
@@ -20,7 +24,7 @@ body {
     border-style: solid;
     border-color: blanchedalmond;
     box-shadow: 5px 5px 6px black;
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    
 }
 
 ol {
@@ -46,7 +50,7 @@ ul {
     margin-top: 560px;
     margin-left: 15px;
     transition: ease-in-out 0.3s;
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;        
+            
 }
 
 .scroll_down:hover {
@@ -63,7 +67,7 @@ ul {
     color: #18253d;
     transition: ease-in-out 0.1s;
     font-weight: 600;
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    
 }
 
 #nom img {
@@ -97,7 +101,7 @@ ul {
     color: #18253d;
     transition: ease-in-out 0.1s;
     font-weight: 600;
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;    
+        
 }
 
 .sommaire-2 {
@@ -260,7 +264,7 @@ section.top_page {
     opacity: 1;
     width: 500px;
     /* background: url("artwork_data/ghostbusters_title_official.png"); */
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    
     text-decoration: none;
     color: greenyellow;
     text-shadow: rgb(13, 43, 9) 1px 1px 4px;
@@ -281,7 +285,7 @@ header.tete img {
     width: 45px;
     margin-left: 5px;
     margin-right: 30px;
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;    
+        
 }
 
 /* Menu de navigation */
@@ -290,7 +294,7 @@ nav.nav_top {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 600px;
+    width: 350px;
     margin-left: 10px;          
 }
 
@@ -306,7 +310,7 @@ nav.nav_top li a {
     font: bold 14px Verdana;
     transition: all 0.6s;
     color: #4265aa;
-    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+    
 }
 
 nav.nav_top li a:hover {

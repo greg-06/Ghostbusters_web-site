@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+* {
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
+}
 
 html {
     background: black;
