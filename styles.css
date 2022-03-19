@@ -54,7 +54,6 @@ header button {
     
 }
 
-
 /* ------------------------------------------------------ */
 /* --------------------dropdown-1------------------------ */
 header .dropdown-1 {
@@ -203,14 +202,14 @@ header .dropdown-3 a button {
 
 /* ----------------------------------------------------- */
 
-/* TEST Menu de navigation TEST */
+/* menu de navigation */
 nav.nav {
     /* background: green; */
     display: flex;
     list-style: none;    
 }
 
-/* TEST text menu nav TEST */
+/* text menu nav */
 nav.nav button {
     /* background: pink; */
     width: 100%;
@@ -220,8 +219,7 @@ nav.nav button {
     padding: 8px 12px;
     font: bold 14px Verdana;
     transition: all 0.6s;
-    color: #4265aa;
-    
+    color: #4265aa;    
 }
 
 nav.nav button:hover {
@@ -267,6 +265,7 @@ section.top_page {
             
 }
 
+/* scroll hover color */
 .scroll_down:hover {
     color: #90a5ce;    
 }
@@ -278,6 +277,7 @@ section.top_page {
     margin-right: auto;
     margin-top: 50px;    
 }
+
 
 .logo_facebook img, .logo_youtube img, .logo_instagram img {   
     width: 80px;
@@ -360,6 +360,7 @@ section.top_page {
     text-align: center;
 }
 
+/* secton titre vidéo */
 .section_title_video {
     /* background: orange; */
     display: flex;
@@ -371,8 +372,10 @@ section.top_page {
     font-size: 0.8em;    
 }
 
+/* clap cinéma */
 .clap img {
     margin-left: 275px;
+    width: 150px;
 }
 
 /* titre vidéo youtube */
@@ -382,32 +385,18 @@ section.top_page {
     font-size: 2.5em;
     text-align: center;
     width: 500px;
-    /* margin-right: 200px; */
 }
-
-.section_title_video .clap img {
-    /* background-color: #fff; */
-    width: 150px;
-}
-
 
 .montage_video video {
     /* background-color: #ba2126; */
     display: flex;
     width: 470px;
     margin-left: auto;
-    margin-right: auto;    
-    margin-bottom: 100px;
-    height: 260px;
-    
-    position: relative;
+    margin-right: auto;   
+    height: 260px;    
 }
 
-.title_youtube_section h2 {
-    font-size: 1.5em;
-    height: 250px;
-}
-
+/* section vidéo et salle ciné */
 .section_video {
     background: url("artwork_data/cinéma_fx_final.png") center center/cover no-repeat;
     width: 1200px;
@@ -421,129 +410,7 @@ section.top_page {
     margin-top: 50px;    
 }
 
-.footer2 {
-    /* background: red; */
-    width: 1200px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: whitesmoke;      
-}
-
-.footer1 {
-    /* background: red; */
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #2952a3;
-    border-radius: 7px;
-    background: url(artwork_data/NYC_bridge2_blur_purple\ .jpg) center center/cover no-repeat;         
-    color: whitesmoke;
-    padding: 20px 0 10px 0;
-    text-align: center;
-}
-
-.buzzer img{
-    display: flex;
-    width: 510px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    margin-top: 10px;    
-}
-
-.buzzer span {
-    font-size: 1.4em;
-    text-shadow: black 3px 3px 5px;
-}
-
-.buzzers {
-    display: flex;
-    justify-content: space-around;
-    width: 510px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer a.charte {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 12px;
-    
-}
-
-.copyright {
-    font-size: 12px;
-    color: whitesmoke;
-}
-
-.drgregg {
-    font-size: 12px;
-}
-
-/******* FORMULAIRE ********/
-form {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 900px;
-    color: whitesmoke;
-}
-
-textarea {
-    height: 120px;
-}
-
-input, button, textarea {
-    resize: none;
-    width: 50%;
-    padding: 10px 10px;
-    margin: 1px 0;
-    font-size: 0.9em;
-    font-family: 'Roboto', sans-serif;
-    background: transparent;
-    border: none;
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    border-top: 1px solid rgba(255, 255, 255, .3);
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    -moz-backdrop-filter: blur(10px);
-    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
-    font-weight: 500;
-    color: whitesmoke;
-    text-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
-    transition: all .3s;
-    margin-bottom: 3px;
-}
-
-input:focus, textarea:focus {
-    outline-color: rgba(50, 22, 122, 0.548);
-}
-
-::placeholder {
-    color: whitesmoke;  
-}
-
-input:hover, textarea:hover, button:hover,
-input[type="email"]:focus,
-input[type="text"]:focus
-input[type="submit"]:focus {
-    background: rgba(255, 255, 255, .1);
-    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, .2);
-}
-
-.send {
-        
-}
-
-/* wavesurfer good version */
+/* wavesurfer */
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -563,39 +430,157 @@ input[type="submit"]:focus {
     border-color: #2952a3;
 }
 
+/* logo gb casque music */
 #gb_music {
+    /* background: red; */
     width: 200px;
     height: 200px;
     margin-right: 20px;
     margin-top: 20px;    
 }
 
+/* section lecteur audio */
 .music {
+    /* background: red; */
     width: 85%;
     padding: 30px;
     box-sizing: border-box;
     display: flex;
 }
 
+/* infos wave et controls section */
 .info {
+    /* background: red; */
     color: whitesmoke;
     margin-left: 30px;
     flex: 1;
     margin: 10px 10 60px;
 }
 
+/* titre du mp3 */
 .info p {
+    /* background: red; */
     font-size: 20px;
 }
 
+/* section controles wavesurfer */
 .controls {
+    
     display: flex;
     align-items: center;
 }
 
+/* all icones controls section */
 .controls img {
     background: whitesmoke;
     width: 30px;
     margin-right: 20px;
-    cursor: pointer;
 }
+
+/* section contactez-nous */
+.contactez {
+    /* background: red; */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2952a3;
+    border-radius: 7px;
+    background: url(artwork_data/NYC_bridge2_blur_purple\ .jpg) center center/cover no-repeat;         
+    color: whitesmoke;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+/* buzzer */
+.buzzer img{
+    /* background: red; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;    
+}
+
+/* Contactez-nous text */
+.buzzer span {
+    /* background: red; */
+    font-size: 1.4em;
+    text-shadow: black 3px 3px 5px;
+}
+
+/******* FORMULAIRE ********/
+
+/* section formulaire */
+form {
+    /* background: red; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    color: whitesmoke;
+}
+
+/* zone de saisie */
+textarea {
+    height: 120px;
+}
+
+input, button, textarea {
+    resize: none;
+    width: 450px;
+    padding: 10px 10px;
+    margin: 1px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    font-weight: 500;
+    color: whitesmoke;
+    transition: all .3s;
+    margin-bottom: 1px;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgba(50, 22, 122, 0);
+}
+
+::placeholder {
+    color: whitesmoke;  
+}
+
+input:hover, textarea:hover, button:hover,
+input[type="email"]:focus,
+input[type="text"]:focus
+input[type="submit"]:focus {
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, .2);
+}
+
+/*------------------- footer section ------------------*/
+.footer {
+    display: flex; 
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;       
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;      
+}
+
+.charte, .copyright, .drgregg {
+    /* background: red; */    
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;   
+}
+
