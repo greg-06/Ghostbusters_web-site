@@ -11,11 +11,9 @@ body {
 }
 
 .dropdown-special {
-    margin-left: 50px;    
-}
-
-#mention {
-    font-size: 0.7em;    
+    /* background: red; */
+    display: flex;
+    margin-left: 520px;
 }
 
 /* mini logo nav barre */
@@ -54,14 +52,17 @@ header button {
 /* ------------------------------------------------------ */
 /* --------------------dropdown-1------------------------ */
 header .dropdown-1 {
+    /* background: red; */
     position: relative;
-    height: 100%;
     display: flex;
+    margin-right: 10px;
 }
 
 header .dropdown-1 .contenu {
+    /* background: rgb(216, 156, 176); */
     display: none;
     position: relative;
+    margin-top: 1px;
 }
 
 header .dropdown-1:hover .contenu {
@@ -101,6 +102,8 @@ header .dropdown-2 {
     position: relative;
     height: 100%;
     display: flex;
+    margin-top: 1px;
+    margin-right: 10px;
 }
 
 header .dropdown-2 .contenu {
@@ -148,6 +151,7 @@ header .dropdown-3 {
 header .dropdown-3 .contenu {
     display: none;
     position: relative;
+    margin-top: 1px;
 }
 
 header .dropdown-3:hover .contenu {
@@ -184,16 +188,15 @@ header .dropdown-3 .contenu a:hover {
 /* TEST Menu de navigation TEST */
 nav.nav {
     /* background: green; */
-    width: 40%;
+    width: 10;
     display: flex;
-    justify-content: space-between;
     list-style: none;    
 }
 
 /* TEST text menu nav TEST */
 nav.nav button {
     /* background: pink; */
-    width: 150px;
+    width: 100%;
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 18px;
@@ -296,7 +299,8 @@ section.top_page {
     margin-right: auto;
     margin-bottom: 50px;
     margin-top: 50px;
-    background-color: #02328f;
+    /* background-color: #02328f; */
+    background: transparent;
     display: flex;
     justify-content: space-evenly;    
     border: #2952a3;
