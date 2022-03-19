@@ -8,9 +8,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="artwork_data/logo/logo_gbfr_rogné.png">
     <title>Ghostbusters French Riviera - official web site fr</title>
     <script src="https://kit.fontawesome.com/91abbb81dd.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>   
 </head>
 <body>
+
+
     <section class="top_page">
         <header class="header">
             <a href="index.html"><img src="artwork_data/logo_gbfr_rogné.png" alt="Logo du site"></a>
@@ -154,54 +156,11 @@
         <a href="index_02.html" class="charte">Charte de l'association</a>
         <p class="drgregg">@DrGregg</p>
     </footer>
-    
-    
-    <script>
-        var playBtn = document.getElementById("playBtn")
-        var stopBtn = document.getElementById("stopBtn")
-        var volumeBtn = document.getElementById("volumeBtn")
 
-        var wavesurfer = WaveSurfer.create({
-            container: '#waveform',
-            waveColor: '#ff34bc',
-            progressColor: '#adff2f',
-            barWidth: 2,
-            height: 100,
-            responsive: true,
-            hideScrollbar: true,          
-        });
-
-        wavesurfer.load("media/Ghostbusters.mp3");
-
-        playBtn.onclick = function(){
-            wavesurfer.playPause();
-            if (playBtn.src.includes("media/play_icon.png")){
-                playBtn.src = "media/pause_icon.png";
-            }else{
-                playBtn.src = "media/play_icon.png";
-            }            
-        
-        }
-        stopBtn.onclick = function(){
-            wavesurfer.stop();
-            playBtn.src = "media/play_icon.png";
-        }
-        volumeBtn.onclick = function(){
-            wavesurfer.toggleMute();
-            wavesurfer.playPause();
-            if (volumeBtn.src.includes("media/volume_icon.png")){
-                volumeBtn.src = "media/mute_icon.png";
-            }else{
-                volumeBtn.src = "media/volume_icon.png";
-            }   
-        }
-        wavesurfer.on('finish', function () {
-            playBtn.src = "media/play_icon.png";
-            wavesurfer.stop();        
-    });
-    </script>
     
-    
+    <script src="my_wavesurfer.js"></script>
+
+
 </body>
 </html>
 
