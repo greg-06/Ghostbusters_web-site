@@ -15,9 +15,10 @@ body {
 
 /* mini logo nav barre */
 header.header img {
-    background: green;
     display: flex;
-    width: 45px;        
+    width: 45px;
+    margin-right: 10px;
+    margin-left: 10px;        
 }
 
 /* barre de navigation */
@@ -30,19 +31,17 @@ header {
 /* onglets menu nav */
 header button {
     width: 100%;
-    background-color: pink;
     border: none;
     outline: none;    
 }
 
 /* onglet mentionbs spéciales */
 .dropdown-special {
-    background: red;
     position: relative;
     display: flex;
-    margin-right: 10px;
     margin-top: 2px;
     width: auto;
+    left: 510px;
 }
 
 /* ------------------ menu déroulant ------------------- */
