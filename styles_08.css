@@ -1,3 +1,24 @@
 * {
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer;
 }
+
+html {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.main_section_1 {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.main_section_2 {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+}
