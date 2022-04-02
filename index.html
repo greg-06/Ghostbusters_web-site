@@ -9,31 +9,39 @@
     <title>Ghostbusters French Riviera - official web site fr</title>
     <script src="https://kit.fontawesome.com/91abbb81dd.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/wavesurfer.js"></script>
-    <script defer src="wavesurfer.js"></script>   
+    <script defer src="wavesurfer.js"></script>
+    <script defer src="script.js"></script>   
 </head>
 <body>
-
     <section class="top_page">
         <header class="header">
             <a href="index.html"><img src="artwork_data/logo Ghostbusters French Riviera vid 46x39.png" alt="Logo du site"></a>
+
             <nav class="nav">
-                <div class="dropdown-1">
-                    <a href="index_07.html"><button>L'association</button></a>
+
+                <div class="dropdown">
+                    <a id="transi" href="index.html"><button>Page d'accueil</button></a>
+                </div>
+
+                <div class="dropdown">
+                    <a id="transi" href="index_07.html"><button>L'association</button></a>
                     <div class="contenu">
                         <a href="index_02.html">Charte</a>
                         <a href="index_13.html">Adhésion</a>
-                        <a href="index_12.html">Membres</a>
+                        <a href="index_12.html">Staff</a>
                     </div>
                 </div>
-                <div class="dropdown-2">
+
+                <div class="dropdown">
                     <a href="#partners"><button>Partenaires</button></a>
                     <div class="contenu">
                         <a href="https://products.hasbro.com/fr-fr">Hasbro</a>
-                        <a href="https://www.facebook.com/artcadedesign">Arcade Design</a>
+                        <a id="arcade" href="https://www.facebook.com/artcadedesign">Arcade Design</a>
                         <a href="https://www.facebook.com/Replay06/">RE-PLAY</a>
+                        <a href="https://playazur.fr/">Play Azur</a>
                     </div>
                 </div>
-                <div class="dropdown-3">
+                <div class="dropdown">
                     <a href="#contact"><button>Contactez-nous</button></a>
                     <div class="contenu">
                         <a href="#contact">Contact</a>
@@ -43,7 +51,8 @@
                 <div class="dropdown-special">
                     <a href="index_10.html"><button id="mention">Mentions spéciales</button></a>
                 </div>                   
-            </nav> 
+            </nav>
+
         </header>
         <div class="landing-page">
             <img class="big_title" src="artwork_data/another_logo_gbfr_vid.png" alt="titre principal">
@@ -66,7 +75,7 @@
                 </li>
                 <li class="logo_youtube">
                     <a href="https://www.youtube.com/channel/UCi7HfDDoV8ldcQ3jorpakfA" target="_blank">
-                        <img src="artwork_data/logo/YouTube-logo.png" alt=""></a>
+                        <img src="artwork_data/logo/YouTube-logo.jpg" alt=""></a>
                 </li>
             </ul>            
         </div>
@@ -105,9 +114,9 @@
 
     <section class="section_video">        
             <div class="montage_video">
-                <video controls="controls" poster="">
-                <source src="video/GBFR RE-PLAY festival 2021.mp4" type="video/mp4">
-                </video>
+                
+                <iframe src="https://player.vimeo.com/video/689777709?h=a1eee2ac39&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="520" height="260" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="GBFR RE-PLAY festival 2021.mp4"></iframe>
+                
             </div>
     </section>
 
@@ -154,7 +163,7 @@
     <footer class="footer" id="page_bas">
         <p class="copyright">&copy; 2022 - Ghostbusters French Riviera</p>
         <a href="index_02.html" class="charte">Charte de l'association</a>
-        <p class="drgregg">Ghostbusters French Riviera - 2022@DrGregg</p>
+        <p class="drgregg">Official web site - 2022@DrGregg</p>
     </footer>
 
     

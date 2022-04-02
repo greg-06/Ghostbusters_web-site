@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    width: 1000px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     
@@ -29,13 +29,16 @@ body {
     font-size: 30px;
 }
 
-.cards {
-    width: 150px;
+.cards, .ghost {
+    width: 185px;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;    
-    border-radius: 15px;
-    
+    border-radius: 15px;    
+}
+
+.ghost {
+    height: 250px;
 }
 
 .top_page .big_title {
@@ -43,10 +46,22 @@ body {
     text-align: center;
 }
 
-.nos_cartes_jeux {
+.section_cards_1,
+.section_cards_2,
+.section_cards_3,
+.section_cards_4,
+.section_cards_5 {   
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
+    margin-top: 15px;
+}
+
+.nos_cartes_jeux img, .nos_fantomes img {
+    transition: ease-in-out 0.3s;
+}
+
+.nos_cartes_jeux img:hover, .nos_fantomes img:hover {
+    
+    transform:scale(1.1);    
 }
 
 .images {
@@ -54,6 +69,14 @@ body {
     border-radius: 15px;
     border-width: 3px;
     border-color: greenyellow;
+}
+
+.stand img {
+    width: 200px;
+}
+
+.stand {
+    display: f;
 }
 
 /* la barre de navigation */

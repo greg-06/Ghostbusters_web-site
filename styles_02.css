@@ -37,21 +37,19 @@ ul {
 
 /* scroll landing page */
 .scroll_down {
+    display: flex;    
     border-style: solid;
     border-width: 1px;
     border-radius: 3px;
-    position: fixed;
     color: #3b5375d0;
     font-size: 1.2em; 
     justify-content: center;    
     text-decoration: none;
-    display: flex;
     width: 30px;
-    margin-top: 560px;
-    margin-left: 15px;
-    transition: ease-in-out 0.3s;
-            
+    transition: ease-in-out 0.3s;            
 }
+
+
 
 .scroll_down:hover {
     color: white;    
@@ -172,7 +170,18 @@ section.top_page {
 }
 
 .title_asso {
+    margin-top: 50px;
     width: 90%;  
+}
+
+.details a{
+    text-decoration: none;
+    color: #18253d;
+    font-weight: 900;
+}
+
+.details a:hover {
+    color: white;
 }
 
 .nav li {
@@ -317,4 +326,11 @@ nav.nav_top li a:hover {
     color: whitesmoke;
     background-color: #90a5ce;
     opacity: 0.8;
+}
+
+.adhesion {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
 }

@@ -2,26 +2,32 @@
     cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer; 
 }
 
-html {    
-    margin-left: auto;
-    margin-right: auto;
+html {
     scroll-behavior: smooth;
-    background: linear-gradient(-90deg, rgb(255, 0, 179) -400%, rgb(8, 27, 113) 100%);
+}
+
+body {    
+    margin: 0;    
+    /* background: linear-gradient(-90deg, rgb(255, 0, 179) -400%, rgb(8, 27, 113) 100%); */
+    background: linear-gradient(0deg, rgb(140, 239, 249) -400%, rgb(1, 15, 23) 80%);
+}
+/* ------------------------------------------------------ */
+
+
+/* ------------------------ menu top -------------------- */
+/* barre de navigation */
+header {
+    display: flex;    
+    width: 100%;
+    margin-top: 3px;    
 }
 
 /* mini logo nav barre */
-header.header img {
+.header img {
     display: flex;
-    width: 45px;
+    width: 46px;
     margin-right: 10px;
     margin-left: 10px;        
-}
-
-/* barre de navigation */
-header {
-    display: flex;
-    width: 100%;
-    margin-top: 3px;    
 }
 
 /* onglets menu nav */
@@ -31,154 +37,16 @@ header button {
     outline: none;    
 }
 
-/* onglet mentionbs spéciales */
+/* onglet mentions spéciales */
 .dropdown-special {
     position: relative;
-    display: flex;
     margin-top: 2px;
-    width: auto;
-    left: 510px;
-}
-
-/* ------------------ menu déroulant ------------------- */
-
-/* dropdown-1 */
-header .dropdown-1 {
-    position: relative;
-    display: flex;
-    margin-right: 10px;
-    margin-top: 2px;
-}
-
-header .dropdown-1 .contenu {
-    display: none;
-    position: relative;
-    margin-top: 1px;
-}
-
-header .dropdown-1:hover .contenu {
-    display: block;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    position: absolute;
-    top: 35px;    
-    width: 100%;
-}
-
-header .dropdown-1:hover .contenu a{
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 18px;
-    padding: 8px 12px;
-    font: bold 14px Verdana;
-    transition: all 0.6s;
-    color: #4265aa;    
-    margin-top: 1px;      
-}
-
-header .dropdown-1 .contenu a:hover {
-    color: whitesmoke;
-    background-color: #90a5ce;
-    opacity: 0.8;
-}
-
-header .dropdown-1 a button {
-    width: 100%;
-}
-
-/* dropdown-2 */
-header .dropdown-2 {
-    position: relative;    
-    display: flex;
-    margin-right: 10px;
-    margin-top: 2px;
-}
-
-header .dropdown-2 .contenu {
-    display: none;
-    position: relative;
-    margin-top: 1px;
-}
-
-header .dropdown-2:hover .contenu {
-    display: block;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    position: absolute;
-    top: 35px;
-    width: auto;
-}
-
-header .dropdown-2:hover .contenu a{
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 18px;
-    padding: 8px 12px;
-    font: bold 14px Verdana;
-    transition: all 0.6s;
-    color: #4265aa;    
-    margin-top: 1px;;    
-}
-
-header .dropdown-2 .contenu a:hover {
-    color: whitesmoke;
-    background-color: #90a5ce;
-    opacity: 0.8;
-}
-
-header .dropdown-2 a button {
-    width: 100%;
-}
-
-/* dropdown-3 */
-header .dropdown-3 {
-    position: relative;
-    display: flex;
-    margin-right: 10px;    
-    margin-top: 2px;
-}
-
-header .dropdown-3 .contenu {
-    display: none;
-    position: relative;
-    margin-top: 1px;
-}
-
-header .dropdown-3:hover .contenu {
-    display: block;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    position: absolute;
-    top: 35px;    
-    width: 100%;
-}
-
-header .dropdown-3:hover .contenu a{
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 18px;
-    padding: 8px 12px;
-    font: bold 14px Verdana;
-    transition: all 0.6s;
-    color: #4265aa;    
-    margin-top: 1px;    
-}
-
-header .dropdown-3 .contenu a:hover {
-    color: whitesmoke;
-    background-color: #90a5ce;
-    opacity: 0.8;
-}
-
-header .dropdown-3 a button {
-    width: auto;
+    left: 430px;
 }
 
 /* menu de navigation */
 nav.nav {
+    background-color: re;
     display: flex;
     list-style: none;    
 }
@@ -187,19 +55,88 @@ nav.nav {
 nav.nav button {
     width: 100%;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid #435961;
     border-radius: 18px;
     padding: 8px 12px;
-    font: bold 14px Verdana;
+    font: 14px Verdana;
     transition: all 0.6s;
-    color: #4265aa;    
+    /* color: #4265aa; */
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(100px);
+    -moz-backdrop-filter: blur(10px);    
 }
 
 nav.nav button:hover {
-    color: whitesmoke;
-    background-color: #90a5ce;
-    opacity: 0.8;
+    color: white;
+    border-color: white;
+    /* background-color: #90a5ce; */
 }
+/* ------------------------------------------------------ */
+
+
+/* ------------------ menu déroulant -------------------- */
+/* onglets menu */
+header .dropdown {
+    background: re;
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 2px;    
+}
+
+/* menus déroulants */
+header .dropdown .contenu {
+    display: none;
+    position: relative;
+    margin-top: 1px;        
+}
+
+header .dropdown:hover .contenu {
+    position: absolute;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;  
+}
+
+header .dropdown:hover .contenu a{
+    text-decoration: none;
+    /* border: 1px solid #fff; */
+    border: 1px solid #435961;
+    border-radius: 18px;
+    padding: 8px 12px;
+    font: 14px Verdana;
+    transition: all 0.6s;
+    /* color: #4265aa;     */
+    color: white;
+    margin-top: 1px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);      
+}
+
+#arcade {
+    font-size: 11px;
+}
+
+header .dropdown .contenu a:hover {
+    color: whitesmoke;
+    /* background-color: #90a5ce; */
+    border-color: white;
+}
+
+header .dropdown a button {
+    width: 100%;
+}
+
+/* ------------------------------------------------------ */
+
+
+
 
 /* big title Ghostbusters French Riviera */
 .big_title {
@@ -213,20 +150,22 @@ nav.nav button:hover {
 /* smoke background big title */
 section.top_page {
     background-color: #ba2126;
-    background: url("artwork_data/landing_page_smoke_blu_1200x500.png");   
+    /* background: url("artwork_data/landing_page_smoke_blu_1200x500.png");  */
+    background: url("artwork_data/fond_bleu.png") center/cover;  
     height: 500px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    border-color: #2952a3;
+    /* border-color: #2952a3; */
+    border-color: #435961;
     border-radius: 7px; 
     border-width: 1px;  
 }
 
 /* scroll landing page */
 .scroll_down {
-    color: white;
+    color: #435961;
     font-size: 1.2em; 
     justify-content: center;    
     text-decoration: none;
@@ -234,12 +173,13 @@ section.top_page {
     width: 70px;
     margin-top: 150px;
     margin-left: 0px;
-    transition: ease-in-out 0.3s;            
+    transition: ease-in-out 0.3s;
+    text-shadow: 1px 1px 1px black;            
 }
 
 /* scroll hover color */
 .scroll_down:hover {
-    color: #90a5ce;    
+    color: white;    
 }
 
 /* section réseaux sociaux et youtube */
@@ -250,23 +190,23 @@ section.top_page {
     margin-top: 50px;    
 }
 
-
 .logo_facebook img, .logo_youtube img, .logo_instagram img {   
     width: 80px;
     height: 80px;    
     border-style: solid;
-    border-color: #fffae1;
-    border-radius: 15px;
-    background-color: #fffae1;
+    border-color: #435961;
+    border-width: 1px;
+    border-radius: 25px;
+    background: #ffffff;
     transition: ease-in-out 0.3s;
     opacity: 0.8
+    
 }
 
 .logo_facebook img:hover, .logo_youtube img:hover, .logo_instagram img:hover {
     color: #b0caff;
     transform: scale(1.2);
-    opacity: 1;
-    
+    opacity: 1;    
 }
 
 .logo_link ul {    
@@ -292,7 +232,8 @@ section.top_page {
     background: transparent;
     display: flex;
     justify-content: space-evenly;    
-    border: #2952a3;
+    /* border: #2952a3; */
+    border-color: #435961;
     border-style: solid;
     border-width: 1px;
     border-radius: 7px;    
@@ -304,8 +245,7 @@ section.top_page {
     height: auto;
     border-radius: 5%;
     transition: 0.3s ease-in-out;  
-    opacity: 0.8;
-    
+    opacity: 0.8;    
 }
 
 .item_menu:hover {
@@ -359,25 +299,27 @@ section.top_page {
     width: 500px;
 }
 
-.montage_video video {
+.montage_video iframe {
     /* background-color: #ba2126; */
     display: flex;
-    width: 470px;
+    width: 520px;
     margin-left: auto;
     margin-right: auto;   
-    height: 260px;    
+    height: 260px;
+    background: rgb(0, 0, 0);    
 }
 
 /* section vidéo et salle ciné */
 .section_video {
-    background: url("artwork_data/cinéma_fx_final.png") center center/cover no-repeat;
+    background: url("artwork_data/salle_cinéma_bleu.jpg") center center/cover no-repeat;
     width: 1200px;
     height: 520px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
     border-radius: 7px;
-    border-color: #2952a3;
+    /* border-color: #2952a3; */
+    border-color: #435961;
     border-width: 1px;
     margin-top: 50px;    
 }
@@ -386,20 +328,21 @@ section.top_page {
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
-    background-image: linear-gradient(rgb(0,0,0,0.3), #030f34), url("artwork_data/ecto1_affiche_afterlife_1200x265.png");
+    /* background: linear-gradient(rgb(0,0,0,0.3), #030f34), url("artwork_data/ecto1_affiche_afterlife_1200x265.png"); */
+    background: linear-gradient(rgb(0,0,0,0.3), rgb(12, 25, 27)), url("artwork_data/ecto1_affiche_afterlife_1200x265.png");
     max-width: 1200px;
     height: 265px;
     margin-left: auto;
     margin-right: auto;
     /* background-position: center; */
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     border-style: solid;
     border-radius: 7px;
     border-width: 1px;
-    border-color: #2952a3;
+    /* border-color: #2952a3; */
+    border-color: #435961;
 }
 
 /* logo gb casque music */
@@ -457,7 +400,8 @@ section.top_page {
     margin-right: auto;
     border-style: solid;
     border-width: 1px;
-    border-color: #2952a3;
+    /* border-color: #2952a3; */
+    border-color: #435961;
     border-radius: 7px;
     background: url(artwork_data/NYC_bridge2_blur_purple\ .jpg) center center/cover no-repeat;         
     color: whitesmoke;

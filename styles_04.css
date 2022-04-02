@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
-    cursor: url("artwork_data/cursor_ghostbusters_polish.png"), pointer;
+    cursor: url("artwork_data/cursor_ghostbusters_resize2.png"), pointer; 
 }
 
 html {
@@ -75,12 +75,21 @@ h1 {
 
 h3 {
     /* background: purple; */
-    color: #da9c02;
+    color: #ffc229;
     font-size: 2em;
-    background: -webkit-linear-gradient(#ffef96, #da9c02);
-    -webkit-background-clip: text;
+    /* background: -webkit-linear-gradient(#ffef96, #da9c02); */
+    /* -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 255, 0);
+    border-radius: 18px;    
+    display: inline-block;
+    padding: 18px 10px;
+    background: url("artwork_data/backgound_slim_green_700x280.png") right/cover;
+    text-shadow: 2px 2px 2px black;
+    
 }
 
 .sommaire_activites {
@@ -96,15 +105,30 @@ h3 {
     margin-bottom: 50px;
 }
 
+/* * div {
+    border: 1px solid rgb(72, 255, 0);
+}
+
+* img {
+    border: 1px solid rgb(252, 153, 255);
+    position: relative;
+    top: 50%;
+} */
+
 .slimer_activites img{
     /* background: greenyellow; */
-    height: 200px;  
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
 }
 
 .slimer_activites {
-    
-    /* background: purple; */
-    height: 200px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+    margin-left: 20px;
 }
 
 .section_sommaire {
@@ -155,7 +179,7 @@ h3 {
     transition: ease-in-out 0.5s;
     color: rgb(247, 0, 255);
     font-size: 0.9em;
-    margin-left: 900px;
+    margin-left: 1100px;
 }
 
 .mini_menu_section a:hover {
